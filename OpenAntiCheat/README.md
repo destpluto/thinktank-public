@@ -1,44 +1,29 @@
-# Open Anti-Cheat (OAC)
+# Destination Pluto Idea Factory — Public Disclosures
 
-Open Anti-Cheat (OAC) is a community-driven, open standard for fair multiplayer gaming.  
-It protects players from cheaters **without kernel drivers, spyware, or added latency**.
+This repository serves as the **index of public-facing ideas** from the Destination Pluto Think Tank.  
+It contains high-level overviews, disclosures, and links to dedicated projects.  
 
-## Why OAC?
+## Active Projects
 
-Traditional anti-cheat systems are black boxes:
-- Kernel-level drivers that compromise security and stability.  
-- Silent patches that sweep exploits under the rug.  
-- Little transparency, little accountability, limited cross-platform support.  
+- **[Open Anti-Cheat (OAC)](https://github.com/destpluto/openanticheat)**  
+  An open standard for fair multiplayer gaming.  
+  - Lightweight, cross-platform, privacy-first.  
+  - Pluggable architecture with cryptographic proofs and optional AI-assisted anomaly analysis.  
+  - Licensed under CC0 for maximum adoption.  
 
-**OAC flips the model:**
-- Open source & auditable — no black boxes.  
-- Cross-platform — Windows, Linux, macOS, Steam Deck.  
-- Lightweight — minimal CPU/network cost, no invasive hooks.  
-- Modular — plug-in architecture for rules, challenges, and attestation.  
-- Evidence-first — verifiable bundles for bans and appeals.  
+- *(More projects will be linked here as they are published.)*
 
-## Current Draft
+## About
 
-The full v0.1-DRAFT specification is available here:  
-➡️ [specifications.md](specifications.md)
+- **Freely available ideas** — released under permissive Creative Commons licenses (often CC0).  
+- **Patent-pending disclosures** — high-level outlines of inventions; contact directly for NDA access to core details.  
+- **Creative works** — narrative universes and social-good proposals shared for public discussion.  
 
-Highlights include:
-- Pluggable client/server module interfaces.  
-- Cryptographic challenge–response protocol.  
-- Baseline anomaly heuristics (rules-based).  
-- **Optional AI-assisted anomaly module** for post-match analysis.  
-- Privacy-first posture: no process scans, screenshots, or invasive drivers.  
+## Feedback
 
-## Roadmap
+Discussion and feedback are welcome in each project’s dedicated repo.  
+For high-level commentary across projects, please open an Issue here.  
 
-- **v0.1** — Baseline rules + transport checks (done, draft available).  
-- **v0.2** — Optional TPM/IMA attestation and trust tiers.  
-- **v0.3** — ML anomaly spec under the same pluggable interface.  
-- **v1.0** — Reference implementations + compliance tests.  
+---
 
-## Get Involved
-
-This project is designed to become an **open standard**, not a closed product.  
-Indie developers, researchers, and players are welcome to contribute, audit, and refine.  
-
-Together, we can make anti-cheat something players trust.
+*Destination Pluto: where ideas launch, and some even make it all the way out of orbit.*
